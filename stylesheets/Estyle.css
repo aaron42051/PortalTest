@@ -1,0 +1,47 @@
+/*events* {
+  margin: 0;
+  padding: 0;
+}*/
+
+.events {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 300%;
+  margin: 0% auto;
+  border-collapse: collapse;
+}
+
+table.events div {
+  font-size: 100%;
+  width: 18vh;
+  height: 10vh;
+  border: 2px solid black;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table.events div.hour {
+  width: 150vh;
+}
+
+.timeColumn {
+  font-size: 2vh;
+}
+
+
+table.events div.cevent {
+
+  background-color: green;
+}
+
+#events {
+  font-size: 6vh;
+}
+
+.link {
+  font-size: 4vh;
+  align-self:right;
+  padding: 30vh;
+}
