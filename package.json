@@ -1,0 +1,22 @@
+{
+  "name": "portaltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aaron42051/portaltest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaron42051/portaltest/issues"
+  },
+  "homepage": "https://github.com/aaron42051/portaltest#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
