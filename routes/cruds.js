@@ -6,7 +6,7 @@ var Schema = mongoose.Schema;
 var eventSchema = new Schema({
   title: String,
   startTime: Date,
-  endtime: Date,
+  endTime: Date,
   desc: String,
   tasks: Array
 });
@@ -39,6 +39,14 @@ router.post('/', function(req, res, next)
       res.json(event);
     }
   });
+});
+
+router.delete('/:id', function(req, res, next){
+  eventModel.remove({_id: req.params.id}, function(err){
+    if(err) res.send("Nothing to delete?");
+  });
+  res.send("Removed: " + req.params.id);
+
 });
 
 module.exports = router;

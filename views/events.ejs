@@ -7,18 +7,53 @@
   </head>
 
   <body>
+    <button id="AddEventBtn">Add Event!
+  	</button>
+
+    <div id="AddModal" class = "modal">
+		<div class="modal-content">
+			<span class="close">x</span>
+
+			<h1 id="modalTitle">Add a New Event</h1>
+
+			<div>
+				<form class="form">
+					<label for="Title">Title of Event:</label>
+					<input type="text" id = "eventTitle">
+				</form>
+				<form class="form">
+					Event Description:
+					<input type="text" id="eventDesc">
+				</form>
+
+
+				<form class="form">
+          Date:
+          <input type="date" id="date">
+					Start Time:
+					<input type="time" id="startTime">
+					End Time:
+					<input type="time" id="endTime">
+				</form>
+
+        <form class="form">
+          Task1:
+          <input type="text" id = "task1">
+        </form>
+
+				<input type="submit" value="Submit" id="submitEvent" onclick = submitEvent()>
+			</div>
+		</div>
+	</div>
+
       <table class="events">
-        <thead>
+        <thead class = "titles">
           <tr>
-            <th>Events</th>
+            <th>Events!!</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>
-              Testing
-            </th>
-          </tr>
+
       </table>
       <script type="text/javascript" src="js/mainScript.js"></script>
       <script src="js/jquery-3.1.1.js"></script>
