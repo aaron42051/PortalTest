@@ -8,3 +8,6 @@ clashed (just didn't get to it), everything else should work (mongoose/mongodb, 
 3. go to localhost:3000
 4. use the add event button to add more events
 5. although not displayed on ui, starttime, endtime, description, and list of tasks are all stored on db (verified with Postman)
+
+
+Please let me know if anything needs clarification, thanks for the opportunity.
